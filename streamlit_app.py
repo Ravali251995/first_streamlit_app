@@ -43,8 +43,8 @@ try:
     streamlit.dataframe(back_from_function)
 except URLError as e:
   streamlit.error()
-fruit_added = streamlit.text_input('What fruit would you like to add?')
-streamlit.write('Thanks for adding ', fruit_added)
+#fruit_added = streamlit.text_input('What fruit would you like to add?')
+#streamlit.write('Thanks for adding ', fruit_added)
 
 
 def insert_row_snowflake(new_fruit):
